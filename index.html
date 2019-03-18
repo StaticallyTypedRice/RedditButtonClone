@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Reddit Button imitation -->
+<!-- Developed by Richie Zhang, design inspired by /r/TheButton on Reddit. -->
+<html>
+<head>
+<title>Imitation Reddit Button</title>
+
+<style>
+body {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+</style>
+
+<noscript>
+<style>
+.reddit_button {
+	display: none !important;
+}
+</style>
+</noscript>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Project static files -->
+<link href="reddit_button.css" type="style/css" />
+<script src="./reddit_button.js"></script>
+
+</head>
+<body>
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div id="main-reddit_button" class="reddit_button">
+<div id="main-reddit_button_cover" class="reddit_button_cover" onclick="reddit_button_unlock('main')"><p>Click Here...</p></div>
+<div id="main-reddit_button_active" class="reddit_button_active" title="Press the button :P" onclick="pressLog()"></div>
+</div>
+
+<noscript><p style="text-align: center;">Please Enable JavaScript</p></noscript>
+
+<br /><br />
+<div id="button_msg"></div>
+
+</body>
+</html>
