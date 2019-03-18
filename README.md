@@ -16,7 +16,7 @@ jQuery is required for this project. Import it onto the page using your perferre
 Import the CSS and JavaScript files:
 
 ```html
-<link rel="stylesheet" href="/css/reddit_button.css" />
+<link rel="stylesheet" href="/path/to/reddit_button.css" />
 <script src="/path/to/reddit_button.js"></script>
 ```
 
