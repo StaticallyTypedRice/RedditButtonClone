@@ -28,4 +28,4 @@ Add the button like this:
 <div id="main-reddit_button_active" class="reddit_button_active" title="Press the button :P" onclick="onPressAction()"></div>
 ```
 
-Rename all instances of `main` to a unique identifier (or keep it if it suits out), and change `onPressAction()` to whatever JavaScript function you want to call once the button has been pressed.
+Rename all instances of `main` to a unique identifier (or keep it if it suits you), and change `onPressAction()` to whatever JavaScript function you want to call once the button has been pressed.
