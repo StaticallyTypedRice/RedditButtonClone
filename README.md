@@ -11,6 +11,8 @@ Honestly, just for fun. However, it can be legitimately used on websites for any
 
 ## Usage
 
+jQuery is required for this project. Import it onto the page using your perferred method.
+
 Import the CSS and JavaScript files:
 
 ```html
